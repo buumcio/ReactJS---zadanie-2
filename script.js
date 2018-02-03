@@ -102,7 +102,7 @@ var MovieDescription = React.createClass({
   render: function() {
     return (
       React.createElement('div', {},
-        React.createElement('h2', {}, this.props.moviesDesc.title),
+        React.createElement('h2', {}, this.props.moviesDesc.desc),
       )
     )
   },
